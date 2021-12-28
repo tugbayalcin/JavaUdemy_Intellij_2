@@ -121,5 +121,8 @@ public class C05LinkedList
         }
         iterator.add(yeniEklenecekEleman);
         return true;
+
+        // kaldigimiz yerden devam
+
     }
 }
