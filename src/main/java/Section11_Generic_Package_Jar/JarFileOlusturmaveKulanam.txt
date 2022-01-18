@@ -1,0 +1,27 @@
+
+
+
+JAR FILE OLUSTURMA
+
+File —> project structor —> artifacts —>  + ya bas —> jar —>
+from. Modules with dependencies (uzerinde calistigin modulu sec, neyi jar yapmak istiyorsan onu) main class kısmını boş bırak —>
+extract to the Target jar kısmını seç —> ok —> proje adi compile output yazan yeri gor yanında projenin adını yazan yeri gor —>
+apply —> ok
+
+
+Bundan sonra pencere kapandı
+
+Projen uzerinden devam ediyorsun
+
+Build —> artifacts —> seçeneklerin olduğu minik bir ekran cikiyor ve yine bul diyoruz
+
+Bunu yaptıktan sonra sol panelde out klasörünün icinde artifact diye bir klasör daha oluştu ve onun da icinde senin projen var
+onun da icinde sıkıştırılmış jar dosyası var kodların orada, onu alıp masaüstüne kaydet
+Bunun icin jar zipinin uzerine gel sağ tıkla ve open in —> Finder —> kopyala ve masaüstüne yapıştır
+
+JAR FILE KULLANMA
+
+Yepyeni bambaşka bir projeye gectin ve eski projenin jar dosyasını kullanmak istiyorsun
+
+File —> project structor —> libraries —> + ya tıkla —> java seç —> masaustundeki jar dosyasını seç
+ok ok ok de ve artık yeni projenin external library kısmında görebilirsin

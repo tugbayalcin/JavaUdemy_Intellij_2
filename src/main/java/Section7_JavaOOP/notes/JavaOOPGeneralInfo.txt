@@ -1,0 +1,25 @@
+
+
+                               ***CLASS(SINIF) VE OBJECT(NESNE) KAVRAMLARI***
+
+Burada iki farkli tanim yapilabilir.
+
+Class dedigimiz kavram aslinda bizim kendi veri turumuyz, object ise bu veriye deger atadigimiz varliklardir.
+int sayi=5; ifadesinde int veri turune 5 degerini atadik. Classlari kullanarak kendi veri turumuzu (int gibi) olusturup,
+degerler atayabiliriz (5 gibi)
+
+Classlar ile veri yapisinin taslagini olustururuz (mesela bir binanin projesi), bunlar soyut yapilardir.
+Classlari kullanarak ortaya bir urun cikardigimizda object uretmis oluruz (bina projesini kullanarak ortaya bir yapi cikarmak),
+bunlar ise somut yapilardir.
+
+Class --> Soyut
+Object --> Somut
+
+Ayni proje kullanilarak birden fazla bina insa edilebilir. Yani bir classi kullanilarak birden fazla object olusturulabilir
+
+Eger daha once anlatilan method, dizi ve bellek durumlarini anladiysak class ve object kavramlarini anlamak cok da zor olmayacaktir
+
+Classlar reference tipli veri turleridir(diziler gibi) ve objeler heap memoryde tutulur
+
+Bir object bir seyler bilir ki bunlari degiskenler ile gosteririz, bir seyler yapar ki bunlari methodlar ile belirtiriz.
+Classlar objectlerin taslaklari oldugu icin bu degisken ve methodlari tanimladigimiz yerler classlar olmmalidir.

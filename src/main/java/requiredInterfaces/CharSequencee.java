@@ -1,8 +1,11 @@
 package requiredInterfaces;
 
-import org.junit.jupiter.api.Test;
+//import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+//import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.Assert;
+import org.junit.Test;
 
 public class CharSequencee {
 
@@ -28,7 +31,8 @@ public class CharSequencee {
         CharSequence firstString = "baeldung";
         String secondString = "baeldung";
 
-        assertEquals(firstString, secondString);
+        Assert.assertEquals(firstString, secondString);
+
         System.out.println(firstString.equals(secondString));//true
     }
 
@@ -51,7 +55,8 @@ public class CharSequencee {
         int secondAddressOfTest = System.identityHashCode(test);
         System.out.println(secondAddressOfTest);//738433734
 
-        assertNotEquals(firstAddressOfTest, secondAddressOfTest);
+
+        Assert.assertNotEquals(firstAddressOfTest, secondAddressOfTest);
     }
 
     //On the other hand, StringBuilder updates the already created String to hold the new value:
@@ -66,7 +71,7 @@ public class CharSequencee {
         int secondAddressOfTest = System.identityHashCode(test);
         System.out.println(secondAddressOfTest);//1484594489
 
-        assertEquals(firstAddressOfTest, secondAddressOfTest);
+        Assert.assertEquals(firstAddressOfTest, secondAddressOfTest);
     }
 
 
@@ -80,6 +85,6 @@ public class CharSequencee {
         CharSequence charSeq1 = "baeldung_1";
         CharSequence charSeq2 = "baeldung_2";
 
-        assertTrue(charSeq1.toString().compareTo(charSeq2.toString()) < 0);
+        Assert.assertTrue(charSeq1.toString().compareTo(charSeq2.toString()) < 0);
     }
 }
